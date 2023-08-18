@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: #000; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+
+
+  <main class="mainContainer" id="mainContainer" >
+    <div class="calc">
+      <div class="settings" id="settings">
+        <p>calc</p>
+        <div class="toggle">
+          <p>theme</p>
+          <div class="toggle-menu">
+            <div class="toggle-btns">
+              <p id="toggle-btn1">1</p>
+              <p id="toggle-btn2">2</p>
+              <p id="toggle-btn3">3</p>
+            </div>
+            <div class="toggle-balls" id="toggle-balls">
+              <div class="ball" id="ball" ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <input type="text" disabled class="input" id="input" placeholder="0" />
+
+      <div class="buttons" id="buttons">
+        <button class="btn btn-no">7</button>
+        <button class="btn btn-no">8</button>
+        <button class="btn btn-no">9</button>
+        <button class="btn del">DEL</button>
+        <button class="btn btn-no">4</button>
+        <button class="btn btn-no">5</button>
+        <button class="btn btn-no">6</button>
+        <button class="btn operation">+</button>
+        <button class="btn btn-no">1</button>
+        <button class="btn btn-no">2</button>
+        <button class="btn btn-no">3</button>
+        <button class="btn operation">-</button>
+        <button class="btn btn-no">.</button>
+        <button class="btn btn-no">0</button>
+        <button class="btn operation">/</button>
+        <button class="btn operation">x</button>
+        <button class="btn reset">RESET</button>
+        <button class="btn equal">=</button>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Veer Virendra Saini</a>.
+  </div>
+
+    
+  <script src="./index.js"></script>
+</body>
+</html>
